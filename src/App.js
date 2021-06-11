@@ -1,6 +1,6 @@
-import React,{ Component } from "react";
+import React from "react";
 
-function App() {
+const App = () => {
   return (
     <>
     <input type ="text" onChange={() => {console.log('clicked')}}/>
